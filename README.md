@@ -1,14 +1,15 @@
 # Craiglist-Resume-filter
   1. Introduction
   2. Objective 
-  3. Data Sources
-  4. Data Dictionary
-  5. Data Pre-processing
-  6. Feature Engineering 
-  7. Model Development
-  8. LSTM Data preprocessing 
-  9. LSTM Modelling
-  10.Results 
+  3. Methodology
+  4. Data Sources
+  5. Data Dictionary
+  6. Data Pre-processing
+  7. Feature Engineering 
+  8. Model Development
+  9. LSTM Data preprocessing 
+  10. LSTM Modelling
+  11.Results 
 # Introduction 
   1.Craiglist is classified advertisement website with section devoted to jobs, housing, for sale, resumes and many more  <br>
   2.Given that the improved computational power recently, there is a lot of scope to improve the interfaces using unstructured data techniques <br>
@@ -17,12 +18,15 @@
 # Objective 
   1.Even though Craiglist is one of the biggest adverstising website, there are still a lot of improvement that needs to be done. One such improvement is to add a filter  <br>
   2.The primary motivation is to use the unstructured data and categorize the resumes into pre-defined categories<br> 
+# Methodology 
+<img width="600" alt="proces" src="https://user-images.githubusercontent.com/89437135/147396424-69c55a95-0bec-4146-898c-c1d0556b6143.png"> <br>
 # Data Sources 
   1. Since the resumes in the Craiglist are unlabeled, it is imperative that resumes with labels are being used to train the model and then, test on the resumes' data from Craiglist <br>
   2. The training data consists of 32 different categories ranging from HR to Chef 
 # Data Dictionary
   1.The dataset consists only resume and its corresponding label <br>
   2.The dataset contains the following information. Displaying the first 5 rows of the data <br>
+  <img width="600" alt="head" src="https://user-images.githubusercontent.com/89437135/147396433-b2eb2fce-fa54-4fc5-aa78-f5caed56b29a.png">
    <br>
   3.Only the resumes column is transformed as features to model the labels in the training data  <br>
 # Data Preprocessing  
@@ -48,8 +52,8 @@ Image
   4. With min_df, the number of dimensions are further reduced by removing words which are very low in frequency
   5. n_gram can help include the order to n words as a phrase. However, it will tend to higher dimensionality 
 # Model Development 
-  1. Once the preprocessing of data is done, the features are passed into different models and reported the following accuracies across different preprocessing techniques 
- Image 
+  1. Once the preprocessing of data is done, the features are passed into different models and reported the following accuracies across different preprocessing techniques <br>
+<img width="600" alt="Text" src="https://user-images.githubusercontent.com/89437135/147396425-7af322c0-c801-4d49-9a98-96b03a0543e5.png"> <br>
 # Long Short-term Memory 
 # Data Pre-processing 
   1. Once the data is imported, the input for LSTM is to be either One hot encoded or Label encoded of collection of documents
