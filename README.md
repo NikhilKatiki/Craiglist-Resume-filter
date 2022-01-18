@@ -16,12 +16,12 @@
   3.Resumes are one of those which dont have any segregation into categories <br>
   4.Advanced unstructured modelling techniques are used to improve the satisfaction of both adversiter and job seeker 
 # Objective 
-  1.Even though Craiglist is one of the biggest adverstising website, there are still a lot of improvement that needs to be done. One such improvement is to add a filter  <br>
-  2.The primary motivation is to use the unstructured data and categorize the resumes into pre-defined categories<br> 
+  1.Even though Craiglist is one of the biggest adverstising website, there are potential problems faced by job seeker. One such problem is to help the advertiser find the right job candadities by matching them with their relevant searches  <br>
+  2.The motivation is to use the unstructured data and categorize the resumes into pre-defined categories<br> 
 # Methodology 
 <img width="600" alt="proces" src="https://user-images.githubusercontent.com/89437135/147396424-69c55a95-0bec-4146-898c-c1d0556b6143.png"> <br>
 # Data Sources 
-  1. Since the resumes in the Craiglist are unlabeled, it is imperative that resumes with labels are being used to train the model and then, test on the resumes' data from Craiglist <br>
+  1. Since the resumes in the Craiglist are unlabeled, Resumes with labels are being used to train the model and then, test on the resumes' data from Craiglist <br>
   2. The training data consists of 32 different categories ranging from HR to Chef 
 # Data Dictionary
   1.The dataset consists only resume and its corresponding label <br>
@@ -72,7 +72,7 @@ Image
 &nbsp;&nbsp;&nbsp;&nbsp; i.Finding the number of positive words and negative words for every review <br>
           &nbsp;&nbsp;&nbsp;&nbsp;ii.Storing number of positive words in positive and number of negative words in negative <br>
 # Results 
-  1.From the analysis, it is clear that Airbnb implemented strategies which makes them unique in responding to the pandemic <br>
-  2.Sentiment dropped after March 2020, but as the company takes remedial steps, sentiment increased over time <br>
-  3.Top positive and negative comments did not change much in pre and post Covid  <br>
-  4.Dirty and Crowded are highlighted negative comments post-Covid which can be suggestion to Airbnb hotels which are having low sentiment scores <br>
+  1.The deployed can help advertisers to sort the resumes and ensure that searched category resumes are readily available rather than downloading every resume <br>
+  2.The anticipated time save for the recruiter is almost 1/32th <br>
+  3.With this, there is a positive network effect between recruiters and job seekers  <br>
+  4.The Bounce rate would be reduced by 30% for Craiglist which further causes to increase the New visitors by atleast 5% <br>
