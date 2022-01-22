@@ -76,3 +76,5 @@ Image
   2.The anticipated time save for the recruiter is almost 1/32th <br>
   3.With this, there is a positive network effect between recruiters and job seekers  <br>
   4.The Bounce rate would be reduced by 30% for Craiglist which further causes to increase the New visitors by atleast 5% <br>
+ 
+ # Thank You!
