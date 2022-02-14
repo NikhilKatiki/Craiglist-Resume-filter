@@ -9,7 +9,7 @@
   8. Model Development
   9. LSTM Data preprocessing 
   10. LSTM Modelling
-  11.Results 
+  11. Results
 # Introduction 
   1.Craiglist is classified advertisement website with section devoted to jobs, housing, for sale, resumes and many more  <br>
   2.Given that the improved computational power recently, there is a lot of scope to improve the interfaces using unstructured data techniques <br>
